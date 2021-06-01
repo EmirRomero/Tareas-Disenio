@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+html{
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+h1{
+  font-family: 'Yeon Sung', cursive;
+  text-align: center;
+  font-size: 60px;
+}
+.Tarta{
+  z-index: 100;
+  position: absolute;
+  left: 40%;
+  width: 200px;
+}
+.Manos{
+  position: absolute;
+  left: 30%;
+  width: 500px;
+}

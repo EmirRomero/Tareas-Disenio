@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+
+.Myface {
+    position: absolute;
+    border-radius: 15px;
+    border: 5px solid #000;
+    display: block;
+    margin: auto;
+    right: 0.4%;
+}
+
+.h1 {
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.Mail {
+    width: 130px;
+    display: flex;
+    position: absolute;
+    top: 101%;
+    left: 6%;
+}
+
+.Instagram {
+    height: 90px;
+    display: flex;
+    position: absolute;
+    top: 100%;
+}
+
+.ContactImg {
+    width: 90px;
+}
+
+.TextoDePresentacion {
+    position: absolute;
+    font-size: 20px;
+}
+.EasterEgg{
+    width: 50px;
+    height: 40px;
+    position: relative;
+    top: 20%;
+    border: transparent;
+    background-color: transparent;
+}
+.Presentacion>.texto {
+    border-bottom: 3px solid #EDB458;
+    background-color: black;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
