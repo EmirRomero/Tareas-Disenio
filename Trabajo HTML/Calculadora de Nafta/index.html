@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="index.css" />
+  <script src="index.js"></script>
+  <title>Calculadora de Nafta</title>
+</head>
+
+<body>
+  <div class="Container">
+    <form onsubmit="getValueInput(); return false">
+      <h1>Calculadora de Kilometros</h1>
+      <div class="Container_text">
+        <select required id="Precios">
+          <option value="70.81">Nafta Super 95</option>
+          <option value="72.75">Nafta Premium 97</option>
+          <option value="50.70">Gasoil 50-S</option>
+          <option value="67.87">Gasoil 10-S</option>
+        </select>
+        <br>
+        <input class="Kilometros form_input" id="Kilometros" type="text"
+          placeholder="Ingrese los kilometros recorridos" />
+        <br>
+        <input class="Rendimiento form_input" id="Rendimiento" type="text"
+          placeholder="Ingrese cuantos kilometros rinde su auto" />
+        <br>
+        <input class="form_input Calcular" type="submit" value="Calcular">
+      </div>
+      <p id="Input"></p>
+  </div>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

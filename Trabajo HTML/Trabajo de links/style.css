@@ -1,0 +1,16 @@
+
+html{
+   border-top: 5px solid black;
+   border-left: 2px solid black; 
+}
+div{
+    margin-left: 5px;
+}
+.container{
+    margin-left: 0px;
+    margin-right: 0px; 
+    text-align: center;
+}
+.col-12{
+    text-align: center;
+}

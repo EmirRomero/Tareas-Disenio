@@ -1,0 +1,54 @@
+body{
+    background-color: #000;
+}
+.Container {
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    background-color:#333;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50px;
+}
+  
+.form_input {
+    width: 50%;
+    height: 20px;
+    margin: 10px 10px;
+    color: #ffffff;
+    border: none;
+    border-bottom: 3px solid #1ca;
+    background-color: transparent;
+}
+#Precios{
+    width: 50%;
+    height: 20px;
+    margin: 10px 10px;
+    color: #ffffff;
+    border: none;
+    border-bottom: 3px solid #1ca;
+    background-color: transparent;
+}
+#Precios:focus{
+    background: linear-gradient(to bottom, #5f9, #1ca );
+    color:black;
+}
+.form_input:focus{
+    background:linear-gradient(to bottom, transparent, #000);
+    outline: none;
+    border-bottom:3px solid #5f9;
+
+}
+.Calcular{
+    height: 25px;
+    background-color: #1ca;
+
+}
+.Calcular:active{
+    background: linear-gradient(to bottom, #5f9, #1ca );
+
+    
+}
+
+
+  

@@ -1,0 +1,11 @@
+.container{
+    margin: 0;
+    width: 100%;
+
+}
+.verde{
+    background-color: rgb(54, 173, 70);
+}
+.azul{
+    background-color: skyblue;
+}
